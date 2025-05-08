@@ -33,7 +33,7 @@ def test_zero():
     assert(Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING) == 0)
     assert(Lab3.bubble_sort(input_arr, Lab3.SORT_DESCENDING) == 0)
 
-def test_notint():
+def test_invalid():
     input_arr = [2.1, 5.2, 6.9, 5.6, 4.9]
 
     assert(Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING) == 2)
